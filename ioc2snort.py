@@ -34,7 +34,7 @@ def generate_rule(ioc, family=None, country=None, reference=None, counter=1):
         for part in ioc.split('.'):
             domain_pattern += '|{:02X}|{}'.format(len(part), part)
 
-        alert = "alert udp any any -> any 53 (msg:\"{}\"; content:\"|01 00 00 01 00 00 00 00 00 00|\"; depth: 10; offset: 2; content:\"{}\"; nocase; distance: 0; fast_pattern; reference:url,{}; sid:{}; rev:0;)".format(
+        alert = "alert udp any any -> any 53 (msg:\"{}\"; content:\"|01 00 00 01 00 00 00 00 00 00|\"; depth: 10; offset: 2; content:\"{}\"; nocase; distance: 0; fast_pattern; reference:url,{}; classtype:trojan-activity; sid:{}; rev:0;)".format(
             message, domain_pattern, reference, sid)
 
     return alert
