@@ -76,6 +76,12 @@ def main(ioc_path):
         counter = 1
         for row in reader:
             try:
+                if row[0].startswith('#'):
+                    continue
+            except IndexError:
+                continue
+
+            try:
                 print generate_rule(row[0], row[1], row[2], row[3], counter)
             except IndexError:
                 continue
