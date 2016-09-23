@@ -43,19 +43,19 @@ def is_ip(ioc):
 def generate_rule(ioc, family=None, country=None, reference=None, counter=1):
     message_suffix = ""
     if family:
-        message_suffix += " related to {}".format(family)
+        message_suffix += " - related to {}".format(family)
     if country:
         message_suffix += " (seen in {})".format(country)
 
     sid = 9100000 + counter
 
     if is_ip(ioc):
-        message = "Traffic to suspicious IP" + message_suffix
+        message = "Traffic to suspicious IP {}{}".format(ioc, message_suffix)
 
         alert = "alert ip any any -> {} any (msg:\"{}\"; reference:url,{}; classtype:trojan-activity; sid:{}; rev:0;)".format(
             ioc, message, reference, sid)
     else:
-        message = "Suspicious DNS request" + message_suffix
+        message = "Suspicious DNS request {}{}".format(ioc, message_suffix)
 
         domain_pattern = ''
         for part in ioc.split('.'):
@@ -75,7 +75,11 @@ def main(ioc_path):
         reader = csv.reader(handle)
         counter = 1
         for row in reader:
-            print generate_rule(row[0], row[1], row[2], row[3], counter)
+            try:
+                print generate_rule(row[0], row[1], row[2], row[3], counter)
+            except IndexError:
+                continue
+
             counter += 1
 
 if __name__ == '__main__':
