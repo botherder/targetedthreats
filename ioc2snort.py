@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env python
 # Copyright (c) 2016, Claudio "nex" Guarnieri
 # All rights reserved.
 #
