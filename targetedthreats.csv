@@ -1,30 +1,31 @@
-# Copyright (c) 2016, Claudio "nex" Guarnieri
-# All rights reserved.
-#
-# Redistribution and use in source and binary forms, with or without modification,
-# are permitted provided that the following conditions are met:
-#
-# * Redistributions of source code must retain the above copyright notice, this
-#   list of conditions and the following disclaimer.
-#
-# * Redistributions in binary form must reproduce the above copyright notice, this
-#   list of conditions and the following disclaimer in the documentation and/or
-#   other materials provided with the distribution.
-#
-# * Neither the name of the {organization} nor the names of its
-#   contributors may be used to endorse or promote products derived from
-#   this software without specific prior written permission.
-#
-# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-# WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-# ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-# ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#IOC,family,country,reference
+#,,,"Copyright (c) 2016, Claudio 'nex' Guarnieri"
+#,,,"All rights reserved."
+
+#,,,"Redistribution and use in source and binary forms, with or without modification"
+#,,,"are permitted provided that the following conditions are met:"
+
+#,,,"* Redistributions of source code must retain the above copyright notice, this"
+#,,,"  list of conditions and the following disclaimer."
+
+#,,,"* Redistributions in binary form must reproduce the above copyright notice, this"
+#,,,"  list of conditions and the following disclaimer in the documentation and/or"
+#,,,"  other materials provided with the distribution."
+
+#,,,"* Neither the name of the {organization} nor the names of its"
+#,,,"  contributors may be used to endorse or promote products derived from"
+#,,,"  this software without specific prior written permission."
+
+#,,,"THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND"
+#,,,"ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED"
+#,,,"WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE"
+#,,,"DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR"
+#,,,"ANY DIRECT, INDIRECT, INCIDENTAL,SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES"
+#,,,"(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;"
+#,,,"LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON"
+#,,,"ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT"
+#,,,"(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS"
+#,,,"SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 
 #IOC,family,country,reference
 "216.6.0.28","XtremeRAT","Syria","https://www.f-secure.com/weblog/archives/00002356.html"
@@ -41,33 +42,33 @@
 "alosh66.no-ip.info","","Syria","http://syrianfreedom.org/some-quick-syrian-malware-analysis"
 "yelp.webhop.org","","Vietnam","https://www.eff.org/deeplinks/2014/01/vietnamese-malware-gets-personal"
 "static.jg7.org","","Vietnam","https://www.eff.org/deeplinks/2014/01/vietnamese-malware-gets-personal"
-#"117.121.xxx.xxx","FinFisher","Australia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#117.121.xxx.xxx,"FinFisher","Australia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
 "77.69.181.162","FinFisher","Bahrain","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"180.211.xxx.xxx","FinFisher","Bangladesh","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"168.144.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"168.144.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"217.16.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"217.146.xxx.xxx","FinFisher","Estonia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#180.211.xxx.xxx,"FinFisher","Bangladesh","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#168.144.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#168.144.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#217.16.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#217.146.xxx.xxx,"FinFisher","Estonia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
 "213.55.99.74","FinFisher","Ethiopia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"80.156.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"37.200.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"178.77.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"119.18.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"118.97.xxx.xxx","FinFisher","Indonesia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"103.28.xxx.xxx","FinFisher","Indonesia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#80.156.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#37.200.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#178.77.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#119.18.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#118.97.xxx.xxx,"FinFisher","Indonesia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#103.28.xxx.xxx,"FinFisher","Indonesia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
 "112.78.143.26","FinFisher","Indonesia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"117.121.xxx.xxx","FinFisher","Malaysia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"187.188.xxx.xxx","FinFisher","Mexico","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"201.122.xxx.xxx","FinFisher","Mexico","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"164.138.xxx.xxx","FinFisher","Netherlands","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#117.121.xxx.xxx,"FinFisher","Malaysia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#187.188.xxx.xxx,"FinFisher","Mexico","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#201.122.xxx.xxx,"FinFisher","Mexico","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#164.138.xxx.xxx,"FinFisher","Netherlands","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
 "164.138.28.2","FinFisher","Netherlands","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
 "78.100.57.165","FinFisher","Qatar","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"195.178.xxx.xxx","FinFisher","Serbia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"117.121.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#195.178.xxx.xxx,"FinFisher","Serbia","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#117.121.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
 "217.174.229.82","FinFisher","Turkmenistan","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"72.22.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"166.143.xxx.xxx","FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
-#"183.91.xxx.xxx","FinFisher","Vietnam","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#72.22.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#166.143.xxx.xxx,"FinFisher","","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
+#183.91.xxx.xxx,"FinFisher","Vietnam","https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/"
 "203.175.168.2","FinFisher","Singapore","https://citizenlab.org/2012/08/the-smartphone-who-loved-me-finfisher-goes-mobile/"
 "203.211.137.105","FinFisher","Singapore","https://citizenlab.org/2012/08/the-smartphone-who-loved-me-finfisher-goes-mobile/"
 "89.148.15.15","FinFisher","Bahrain","https://citizenlab.org/2012/08/the-smartphone-who-loved-me-finfisher-goes-mobile/"
@@ -102,7 +103,7 @@
 "46.166.162.147","Hacking Team","Ethiopia","https://citizenlab.org/2014/02/hacking-team-targeting-ethiopian-journalists/"
 "69.60.98.203","Hacking Team","Ethiopia","https://citizenlab.org/2014/02/hacking-team-targeting-ethiopian-journalists/"
 "216.118.232.245","Hacking Team","Ethiopia","https://citizenlab.org/2014/02/hacking-team-targeting-ethiopian-journalists/"
-#"46.251.239.xxx","Hacking Team","Ethiopia","https://citizenlab.org/2015/03/hacking-team-reloaded-us-based-ethiopian-journalists-targeted-spyware/"
+#46.251.239.xxx,"Hacking Team","Ethiopia","https://citizenlab.org/2015/03/hacking-team-reloaded-us-based-ethiopian-journalists-targeted-spyware/"
 "ar-24.com","Hacking Team","UAE","https://citizenlab.org/2012/10/backdoors-are-forever-hacking-team-and-the-targeting-of-dissent/"
 "198.101.232.81","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
 "198.101.232.37","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
@@ -116,7 +117,7 @@
 "173.230.142.200","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
 "173.255.234.29","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
 "209.20.68.xxx","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
-#"108.166.64.xxx","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
+#108.166.64.xxx,"Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
 "108.166.112.17","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
 "184.106.178.154","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
 "166.78.242.86","Hacking Team","","https://citizenlab.org/2014/02/hacking-teams-us-nexus/"
@@ -127,29 +128,29 @@
 "109.235.193.83","Hacking Team","Azerbaijan","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "190.242.96.49","Hacking Team","Colombia","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "41.33.151.150","Hacking Team","Egypt","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"216.118.232.xxx","Hacking Team","Ethiopia","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"81.183.229.xxx","Hacking Team","Hungary","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#216.118.232.xxx,"Hacking Team","Ethiopia","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#81.183.229.xxx,"Hacking Team","Hungary","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "2.228.65.226","Hacking Team","Italy","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "82.104.200.51","Hacking Team","Italy","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "88.33.54.xxx","Hacking Team","Italy","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"95.228.202.xxx","Hacking Team","Italy","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"89.218.88.xxx","Hacking Team","Kazakhstan","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#95.228.202.xxx,"Hacking Team","Italy","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#89.218.88.xxx,"Hacking Team","Kazakhstan","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "211.51.14.129","Hacking Team","Korea","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"203.217.178.xxx","Hacking Team","Malaysia","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"189.177.47.xxx","Hacking Team","Mexico","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#203.217.178.xxx,"Hacking Team","Malaysia","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#189.177.47.xxx,"Hacking Team","Mexico","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "189.177.65.13","Hacking Team","Mexico","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "189.177.74.147","Hacking Team","Mexico","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "201.157.43.60","Hacking Team","Mexico","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "200.67.230.2","Hacking Team","Mexico","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"41.248.248.xxx","Hacking Team","Morocco","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"81.192.5.xxx","Hacking Team","Morocco","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"62.251.188.xxx","Hacking Team","Morocco","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#41.248.248.xxx,"Hacking Team","Morocco","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#81.192.5.xxx,"Hacking Team","Morocco","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#62.251.188.xxx,"Hacking Team","Morocco","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "197.210.255.178","Hacking Team","Nigeria","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"95.49.xxx.xxx","Hacking Team","Poland","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#95.49.xxx.xxx,"Hacking Team","Poland","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "37.242.13.10","Hacking Team","Saudi Arabia","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "62.149.88.20","Hacking Team","Saudi Arabia","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "41.78.109.91","Hacking Team","Sudan","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
-#"203.149.47.xxx","Hacking Team","Thailand","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
+#203.149.47.xxx,"Hacking Team","Thailand","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "95.9.71.180","Hacking Team","Turkey","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "81.95.226.134","Hacking Team","Uzbekistan","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
 "81.95.224.10","Hacking Team","Uzbekistan","https://citizenlab.org/2014/02/mapping-hacking-teams-untraceable-spyware/"
