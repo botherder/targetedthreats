@@ -27,7 +27,7 @@ The utility *extract.py* is just simply to easily extract list of IPs and/or dom
 
 ## Licensing
 
-The source code in this repository is licensed under GPL v3 and
+The source code in this repository is licensed under BSD 3-Clause and
 copyrighted by Claudio Guarnieri.
 
 The list of indicators is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
