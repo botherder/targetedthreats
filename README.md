@@ -1,6 +1,8 @@
 # targetedthreats
 
 Collection of IOCs related to targeting of civil society.
+If you're interested, I also compile a list of [Reports](https://github.com/botherder/targetedthreats/wiki/Reports) detailing attacks
+against activists, dissidents and journalists.
 
 You will find a *targeted.csv* file containing the list of indicators,
 a *disabled.csv* which contains incomplete indicators, and *targetedthreats.rules*
