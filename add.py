@@ -30,42 +30,66 @@
 import os
 import csv
 import sys
-from argparse import ArgumentParser
 
 from utils import is_ip
 
-def main():
-    parser = ArgumentParser(description="Targeted Threats IOC Extractor")
-    parser.add_argument('--all', '-a', action='store_true', help="Get all indicators")
-    parser.add_argument('--ip', '-i', action='store_true', help="Get only IP addresses")
-    parser.add_argument('--domains', '-d', action='store_true', help="Get only domains")
-    parser.add_argument('ioc_path', action="store")
-
-    args, unknown = parser.parse_known_args()
-
-    if not args.all and not args.ip and not args.domains:
-        parser.print_usage()
-        sys.exit(1)
-
-    if not os.path.exists(args.ioc_path):
-        print("[!] ERROR: IOC file does not exist at path {}".format(args.ioc_path))
-        return
-
-    with open(args.ioc_path, 'r') as handle:
+def get_iocs():
+    iocs = []
+    with open("targetedthreats.csv", "r") as handle:
         reader = csv.reader(handle)
         for row in reader:
-            try:
-                if row[0].startswith('#'):
-                    continue
-            except IndexError:
+            ioc = row[0]
+            if ioc.startswith("#"):
                 continue
 
-            if is_ip(row[0]):
-                if args.all or args.ip:
-                    print row[0]
+            iocs.append(ioc)                
+
+    return iocs
+
+def is_good(ioc):
+    blacklist = [
+        ".static.",
+        ".dynamic.",
+        ".rnds.",
+        ".amazonaws.com"
+    ]
+
+    for nope in blacklist:
+        if nope in ioc:
+            return False
+
+    return True
+
+def main(ioc_path):
+    if not os.path.exists(ioc_path):
+        print("[!] The IOC file at path " + ioc_path + " does not exist.")
+        return
+
+    iocs = get_iocs()
+
+    family = raw_input(">>> Provide the family name: ")
+    country = raw_input(">>> Provide the country: ")
+    reference = raw_input(">>> Provide URL to report: ")
+
+    collection = open("targetedthreats.csv", "a")
+    writer = csv.writer(collection, quoting=csv.QUOTE_ALL)
+
+    with open(ioc_path, "r") as handle:
+        for line in handle:
+            ioc = line.strip()
+
+            if not is_good(ioc):
+                print("[!] Skipped IOC because of blacklist: " + ioc)
+                continue
+
+            if ioc not in iocs:
+                print("[+] Adding new row to collection for IOC: " + ioc)
+                new_row = [ioc, family, country, reference]
+                writer.writerow(new_row)
             else:
-                if args.all or args.domains:
-                    print row[0]
+                print("[-] Skipped IOC because already existing: " + ioc)
+
+    collection.close()
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1])

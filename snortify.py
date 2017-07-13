@@ -30,15 +30,8 @@
 import os
 import csv
 import sys
-import socket
 
-def is_ip(ioc):
-    try:
-        socket.inet_aton(ioc)
-    except socket.error:
-        return False
-    else:
-        return True
+from utils import is_ip
 
 def generate_rule(ioc, family=None, country=None, reference=None, counter=1):
     message_suffix = ""
