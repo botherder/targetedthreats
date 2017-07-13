@@ -77,6 +77,8 @@ def main(ioc_path):
     with open(ioc_path, "r") as handle:
         for line in handle:
             ioc = line.strip()
+            if not ioc:
+                continue
 
             if not is_good(ioc):
                 print("[!] Skipped IOC because of blacklist: " + ioc)
