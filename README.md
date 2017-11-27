@@ -25,6 +25,9 @@ The utility *extract.py* is just simply to easily extract list of IPs and/or dom
       --ip, -i       Get only IP addresses
       --domains, -d  Get only domains
 
+The file *samples.csv* contains a list of file hashes extracted from all the
+collected reports.
+
 ## Licensing
 
 The source code in this repository is licensed under BSD 3-Clause and
