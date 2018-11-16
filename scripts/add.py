@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# Copyright (c) 2017, Claudio "nex" Guarnieri
+#!/usr/bin/env python3
+# Copyright (c) 2017-2018, Claudio "nex" Guarnieri
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification,
@@ -30,19 +30,23 @@
 import os
 import csv
 import sys
+import socket
+from argparse import ArgumentParser
 
-from utils import is_ip
+def is_ip(ioc):
+    try:
+        socket.inet_aton(ioc)
+    except socket.error:
+        return False
+    else:
+        return True
 
-def get_iocs():
+def get_iocs(csv_path):
     iocs = []
-    with open("targetedthreats.csv", "r") as handle:
-        reader = csv.reader(handle)
+    with open(csv_path, 'r') as handle:
+        reader = csv.DictReader(handle)
         for row in reader:
-            ioc = row[0]
-            if ioc.startswith("#"):
-                continue
-
-            iocs.append(ioc)                
+            iocs.append(row['ioc'])
 
     return iocs
 
@@ -60,24 +64,36 @@ def is_good(ioc):
 
     return True
 
-def main(ioc_path):
-    if not os.path.exists(ioc_path):
-        print("[!] The IOC file at path " + ioc_path + " does not exist.")
-        return
+def clean_indicator(ioc):
+    ioc = ioc.lower()
+    ioc = ioc.strip()
+    ioc = ioc.replace('[.]', '.')
+    return ioc
 
-    iocs = get_iocs()
+def main():
+    parser = ArgumentParser(description="Add new indicators to the CSV list")
+    parser.add_argument('ioc_path', action="store")
+    parser.add_argument('csv_path', action="store")
+    args, unknown = parser.parse_known_args()
 
-    family = raw_input(">>> Provide the family name: ")
-    country = raw_input(">>> Provide the country: ")
-    reference = raw_input(">>> Provide URL to report: ")
+    if not os.path.exists(args.ioc_path) or not os.path.exists(args.csv_path):
+        parser.print_usage()
+        print("ERROR: You need to provide valid ioc_path and csv_path")
+        sys.exit(-1)
 
-    collection = open("targetedthreats.csv", "a")
+    iocs = get_iocs(args.csv_path)
+
+    family = input(">>> Provide the family name: ")
+    country = input(">>> Provide the country: ")
+    reference = input(">>> Provide URL to report: ")
+
+    collection = open(args.csv_path, 'a')
     writer = csv.writer(collection, quoting=csv.QUOTE_ALL)
 
-    with open(ioc_path, "r") as handle:
+    with open(args.ioc_path, 'r') as handle:
         for line in handle:
-            ioc = line.strip()
-            if not ioc:
+            ioc = clean_indicator(line)
+            if ioc == '':
                 continue
 
             if not is_good(ioc):
@@ -86,7 +102,10 @@ def main(ioc_path):
 
             if ioc not in iocs:
                 print("[+] Adding new row to collection for IOC: " + ioc)
-                new_row = [ioc, family, country, reference]
+                ioc_type = 'domain'
+                if is_ip(ioc):
+                    ioc_type = 'ip_address'
+                new_row = [ioc_type, ioc, family, country, reference]
                 writer.writerow(new_row)
             else:
                 print("[-] Skipped IOC because already existing: " + ioc)
@@ -94,4 +113,4 @@ def main(ioc_path):
     collection.close()
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main()

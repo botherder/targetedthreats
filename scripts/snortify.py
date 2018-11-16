@@ -59,7 +59,7 @@ def generate_rule(row, counter=1):
     return alert
 
 def main(csv_path):
-    parser = ArgumentParser(description="Targeted Threats IOC Extractor")
+    parser = ArgumentParser(description="Generate Snort rules from CSV indicators list")
     parser.add_argument('csv_path', action="store")
     args, unknown = parser.parse_known_args()
 
