@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# Copyright (c) 2017, Claudio "nex" Guarnieri
+#!/usr/bin/env python3
+# Copyright (c) 2017-2018, Claudio "nex" Guarnieri
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification,
@@ -27,12 +27,35 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-import socket
+import os
+import csv
+import sys
+from argparse import ArgumentParser
 
-def is_ip(ioc):
-    try:
-        socket.inet_aton(ioc)
-    except socket.error:
-        return False
-    else:
-        return True
+def main():
+    parser = ArgumentParser(description="Targeted Threats IOC Extractor")
+    parser.add_argument('--all', '-a', action='store_true', help="Get all indicators")
+    parser.add_argument('--ip', '-i', action='store_true', help="Get only IP addresses")
+    parser.add_argument('--domains', '-d', action='store_true', help="Get only domains")
+    parser.add_argument('csv_path', action="store")
+
+    args, unknown = parser.parse_known_args()
+
+    if not args.all and not args.ip and not args.domains:
+        parser.print_usage()
+        sys.exit(-1)
+
+    if not os.path.exists(args.csv_path):
+        print("[!] ERROR: IOC file does not exist at path {}".format(args.csv_path))
+        return
+
+    with open(args.csv_path, 'r') as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            if (args.all or args.ip) and row['type'] == 'ip_address':
+                print(row['ioc'])
+            elif (args.all or args.domains) and row['type'] == 'domain':
+                print(row['ioc'])
+
+if __name__ == '__main__':
+    main()

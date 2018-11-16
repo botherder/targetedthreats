@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# Copyright (c) 2017, Claudio "nex" Guarnieri
+#!/usr/bin/env python3
+# Copyright (c) 2018, Claudio "nex" Guarnieri
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification,
@@ -27,45 +27,36 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-import os
-import csv
 import sys
+import csv
+import json
 from argparse import ArgumentParser
 
-from utils import is_ip
+def convert_to_json(input_path, output_path):
+    csvfile = open(input_path, 'r')
+    jsonfile = open(output_path, 'w')
+
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row)
+        json.dump(row, jsonfile)
+        jsonfile.write('\n')
 
 def main():
-    parser = ArgumentParser(description="Targeted Threats IOC Extractor")
-    parser.add_argument('--all', '-a', action='store_true', help="Get all indicators")
-    parser.add_argument('--ip', '-i', action='store_true', help="Get only IP addresses")
-    parser.add_argument('--domains', '-d', action='store_true', help="Get only domains")
-    parser.add_argument('ioc_path', action="store")
+    parser = ArgumentParser(description="Convert CSV list to other formats")
+    parser.add_argument('--json', '-j', action='store_true', help="Convert to JSON")
+    parser.add_argument('input', action="store")
+    parser.add_argument('output', action="store")
 
     args, unknown = parser.parse_known_args()
 
-    if not args.all and not args.ip and not args.domains:
+    if not args.json:
         parser.print_usage()
-        sys.exit(1)
+        print("ERROR: You need to specify one output format")
+        sys.exit(-1)
 
-    if not os.path.exists(args.ioc_path):
-        print("[!] ERROR: IOC file does not exist at path {}".format(args.ioc_path))
-        return
-
-    with open(args.ioc_path, 'r') as handle:
-        reader = csv.reader(handle)
-        for row in reader:
-            try:
-                if row[0].startswith('#'):
-                    continue
-            except IndexError:
-                continue
-
-            if is_ip(row[0]):
-                if args.all or args.ip:
-                    print row[0]
-            else:
-                if args.all or args.domains:
-                    print row[0]
+    if args.json:
+        convert_to_json(args.input, args.output)
 
 if __name__ == '__main__':
     main()

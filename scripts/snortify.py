@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# Copyright (c) 2016, Claudio "nex" Guarnieri
+#!/usr/bin/env python3
+# Copyright (c) 2016-2018, Claudio "nex" Guarnieri
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification,
@@ -30,52 +30,49 @@
 import os
 import csv
 import sys
+from argparse import ArgumentParser
 
-from utils import is_ip
-
-def generate_rule(ioc, family=None, country=None, reference=None, counter=1):
+def generate_rule(row, counter=1):
     message_suffix = ""
-    if family:
-        message_suffix += " - related to {}".format(family)
-    if country:
-        message_suffix += " (seen in {})".format(country)
+    if row['family']:
+        message_suffix += " - related to {}".format(row['family'])
+    if row['country']:
+        message_suffix += " (seen in {})".format(row['country'])
 
     sid = 9100000 + counter
 
-    if is_ip(ioc):
-        message = "Traffic to suspicious IP {}{}".format(ioc, message_suffix)
+    if row['type'] == 'ip_address':
+        message = "Traffic to suspicious IP {}{}".format(row['ioc'], message_suffix)
 
         alert = "alert ip any any -> {} any (msg:\"{}\"; reference:url,{}; classtype:trojan-activity; sid:{}; rev:0;)".format(
-            ioc, message, reference, sid)
+            row['ioc'], message, row['reference'], sid)
     else:
-        message = "Suspicious DNS request {}{}".format(ioc, message_suffix)
+        message = "Suspicious DNS request {}{}".format(row['ioc'], message_suffix)
 
         domain_pattern = ''
-        for part in ioc.split('.'):
+        for part in row['ioc'].split('.'):
             domain_pattern += '|{:02X}|{}'.format(len(part), part)
 
         alert = "alert udp any any -> any 53 (msg:\"{}\"; content:\"|01 00 00 01 00 00 00 00 00 00|\"; depth: 10; offset: 2; content:\"{}\"; nocase; distance: 0; fast_pattern; reference:url,{}; classtype:trojan-activity; sid:{}; rev:0;)".format(
-            message, domain_pattern, reference, sid)
+            message, domain_pattern, row['reference'], sid)
 
     return alert
 
-def main(ioc_path):
-    if not os.path.exists(ioc_path):
-        print("[!] ERROR: IOC file does not exist at path {}".format(ioc_path))
+def main(csv_path):
+    parser = ArgumentParser(description="Targeted Threats IOC Extractor")
+    parser.add_argument('csv_path', action="store")
+    args, unknown = parser.parse_known_args()
+
+    if not os.path.exists(args.csv_path):
+        print("[!] ERROR: IOC file does not exist at path {}".format(args.csv_path))
         return
 
-    with open(ioc_path, 'r') as handle:
-        reader = csv.reader(handle)
+    with open(args.csv_path, 'r') as handle:
+        reader = csv.DictReader(handle)
         counter = 1
         for row in reader:
             try:
-                if row[0].startswith('#'):
-                    continue
-            except IndexError:
-                continue
-
-            try:
-                print generate_rule(row[0], row[1], row[2], row[3], counter)
+                print(generate_rule(row, counter))
             except IndexError:
                 continue
 
