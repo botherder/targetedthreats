@@ -27,39 +27,45 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-import json
+import csv
 from argparse import ArgumentParser
 
 def main():
-    parser = ArgumentParser(description="Extract statistics from JSON list")
+    parser = ArgumentParser(description="Extract statistics from reports")
     parser.add_argument('input', action="store")
 
     args, unknown = parser.parse_known_args()
 
-    reports = {}
-    with open(args.input, 'r') as handle:
-        for line in handle:
-            data = json.loads(line)
-
-            if data['reference'] not in reports:
-                reports[data['reference']] = [data['country'],]
-            else:
-                if data['country'] not in reports[data['reference']]:
-                    reports[data['reference']].append(data['country'])
+    reader = csv.DictReader(open(args.input, 'r'))
 
     country_count = {}
-    for key, value in reports.items():
-        for country in value:
+    year_count = {}
+    for row in reader:
+        countries = row["country"].split(",")
+        for country in countries:
             if country not in country_count:
                 country_count[country] = 1
             else:
                 country_count[country] += 1
 
+        year = row["year"]
+        if year not in year_count:
+            year_count[year] = 1
+        else:
+            year_count[year] += 1
+
     country_sorted = sorted(country_count.items(), key=lambda k: k[1], reverse=True)
+    year_sorted = sorted(year_count.items(), key=lambda k: k[1], reverse=True)
 
     print("Number of reports per country:")
     for country in country_sorted:
         print(country[1], country[0])
+
+    print("")
+
+    print("Number of reports per year:")
+    for year in year_sorted:
+        print(year[1], year[0])
 
 if __name__ == '__main__':
     main()
