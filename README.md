@@ -1,4 +1,4 @@
-# targetedthreats
+# Targeted Threats
 
 Collection of IOCs related to targeting of civil society.
 
