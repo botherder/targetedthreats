@@ -51,14 +51,14 @@ def get_iocs(csv_path):
     return iocs
 
 def is_good(ioc):
-    blacklist = [
+    blocklist = [
         ".static.",
         ".dynamic.",
         ".rnds.",
         ".amazonaws.com"
     ]
 
-    for nope in blacklist:
+    for nope in blocklist:
         if nope in ioc:
             return False
 
@@ -97,7 +97,7 @@ def main():
                 continue
 
             if not is_good(ioc):
-                print("[!] Skipped IOC because of blacklist: " + ioc)
+                print("[!] Skipped IOC because of blocklist: " + ioc)
                 continue
 
             if ioc not in iocs:
