@@ -591,7 +591,6 @@
 {"type": "domain", "ioc": "book.websurprisemail.com", "family": "Misc", "country": "China", "reference": "https://targetedthreats.net/"}
 {"type": "domain", "ioc": "boom2012.info", "family": "Misc", "country": "China", "reference": "https://targetedthreats.net/"}
 {"type": "domain", "ioc": "carts.dnset.com", "family": "Misc", "country": "China", "reference": "https://targetedthreats.net/"}
-{"type": "domain", "ioc": "checkip.dyndns.org", "family": "Misc", "country": "China", "reference": "https://targetedthreats.net/"}
 {"type": "domain", "ioc": "cheney1567.wordpress.com", "family": "Misc", "country": "China", "reference": "https://targetedthreats.net/"}
 {"type": "domain", "ioc": "city.ip138.com", "family": "Misc", "country": "China", "reference": "https://targetedthreats.net/"}
 {"type": "domain", "ioc": "cocohk.8051.my5m.com", "family": "Misc", "country": "China", "reference": "https://targetedthreats.net/"}
@@ -1901,3 +1900,536 @@
 {"type": "domain", "ioc": "free247downloads.com", "family": "NSO", "country": "Morocco", "reference": "https://www.amnesty.org/en/latest/research/2019/10/Morocco-Human-Rights-Defenders-Targeted-with-NSO-Groups-Spyware/"}
 {"type": "domain", "ioc": "get1tn0w.free247downloads.com", "family": "NSO", "country": "Morocco", "reference": "https://www.amnesty.org/en/latest/research/2019/10/Morocco-Human-Rights-Defenders-Targeted-with-NSO-Groups-Spyware/"}
 {"type": "domain", "ioc": "hmizat.co", "family": "NSO", "country": "Morocco", "reference": "https://www.amnesty.org/en/latest/research/2019/10/Morocco-Human-Rights-Defenders-Targeted-with-NSO-Groups-Spyware/"}
+{"type": "domain", "ioc": "acccountsgoog1e.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "account-mail.info", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "accountapp.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "accountsgoog1e.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "alexandr01299.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "auth-google.site", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "auth-mail.email", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "badoo-account-security.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "chrome-redirect.top", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "com-auth.site", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "com-enter.site", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "com-gm.site", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "com-google.site", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "check-activity.com.ru", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "comericac.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "desktest1.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "desktest5.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "desktest9.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "dokerest.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "dokertest.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "droinjoin.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "emails-support.site", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "fedortest.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "freekremlin.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "frosdank.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "frostdank.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "garant-help.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "gmail-warning.top", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "google-activity.pw", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "gvoice8765.online", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "hpphhpph.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "id-support-email.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "joindroin.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "lamatrest.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mail-auth.email", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mail-auth.online", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mail-google.email", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "my-short.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "myaccount-support.top", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mycabinet.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mynavvfedera1.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mynavyfedera1.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mynavyfedral.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "mynevyfedera1.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "navyfedara1.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "navyfedera1.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "navyfedera1.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "navyfederai.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "nayfedera1.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "nevyfedera1.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "nitroqensports.eu", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "nsdns.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "poxypoxy.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "rc-room.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "support-emails.host", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "t1bank.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "testdhome1.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "testdhome4.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "testdom1.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "testdom3.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "testfor7.xyz", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "vkontak1e.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "voice98765.online", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "xn--avyfedera-yubm.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "xn--bckchain-v3a30f.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "xn--blckchain-17c.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "xn--blockcain-lmb.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "xn--mynavyfedera-occ.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "xn--navyfderal-36a.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "xn--navyfedera-j0b.org", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "yandex-account-security.com", "family": "", "country": "Uzbekistan", "reference": "https://www.amnesty.org/en/latest/research/2020/03/targeted-surveillance-attacks-in-uzbekistan-an-old-threat-with-new-techniques/"}
+{"type": "domain", "ioc": "com-website33.org", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "srtnr.co", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ecom-servicelogin.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailserver499.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailhostingsecurenet.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainblacklistcheck.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "lnkshrtnr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "2mblk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailtickr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-loginservicesverified.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainmanager33.website", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserverenterprise.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailseverrus23.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "msrvrgh.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserver89.org", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserverhollandservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webnetonlineservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovangels.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailauthenticatorservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "redirectonline.xyz", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "srtnr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webmasterserver39.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserver91.website", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserverru2099.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "phpwebserver34.tech", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "short-ner.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "comservicelogin.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-lang-eng.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserveruk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostmailsecureserver.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netcomserviceonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "strurl.click", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "extranetserviceonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainserver322.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "allaboutiot.website", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforshort.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailcommunicationservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostemailserver.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "servergateway56.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "msrvrgeh.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shrtnerlnk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-website33.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "nodeserver50.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserver89.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovcog.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "servermain43.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "servermailing34.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "newserver39.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serversap54.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailvalidateservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-servicelogin.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserveruk89.org", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainmanager33.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "rockerhostings.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "servermappingserviceonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailservershare.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "euanticorruption.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailmarknotes.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-msrvrgr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netsecureemailservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailhostsecurehk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-en-gb.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostsecuremail544.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shadymario.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovmafia.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "maildeliveryagent.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "getemailopens.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netsecureserver399.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linkshortnr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "pageserverru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainmanager33.site", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailerdomain56.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailhostholland.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainserver399.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "sapserverhipe.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "imapserverholland.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "cyberanalyticals.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "santanaservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "softnetworksolutions.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailcollectorservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailrockservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mblk1.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailmarkservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "phpwebserver34.xyz", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basemailservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainsserver4f.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovgang.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserverredirect99.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "smtpserver389.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "pageserver77.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-website33.biz", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-fr-fr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "corn-ukr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shortformurl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "checkmailserverhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "securemailhost46.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linksrtnr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainemailhostings.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovorganisedcrime.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostemailsecureserver.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostmailsecure.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovcrimestory.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "maillinkservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hbh-europe-ripoff-report.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlinenetworkinghelp.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostsecuremail.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emaildeliverysuccess.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverhello54.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "postserviceemaildomain.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailapiservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shortlinkcut.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "smtpserver466.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webredirect39.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailsecurenode.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "websociofiles.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hkdrillonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "searchsimple.net", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailservername299.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shortformurl.xyz", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "loginauths-service.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserveronline9.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hathwaynetwork.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovcriminals.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-website33.info", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserver89.net", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "softredirect.info", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailmappingservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "logserver39.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "networkshareserver.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "loginservercheck.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ultronnetworksolution.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mail-logger.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "loginserviceunified.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "homeserver87.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailannounceservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linkshrtnr22.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailserverholland.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailsecurehost.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "phpwebserver34.best", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserveruk89.net", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "msrfrgr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserver39.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailtransferserver.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-website33.net", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailer-domain.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "servergateway33.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "browserextensions.info", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "goomail.ml", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserveruk89.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "postmarkapiservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailauthservice399.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "phpwebserver34.site", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailchimpservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "pageserver299.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webhostwebcare.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netmapservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mywebredirect.info", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "sapserver39j.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailgatorservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "4mblk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "myfacetik.cf", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovcriminalgang.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailingserver938.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "openserverholland.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailserverhk48.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailauthservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "rackserver39.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "un-told.net", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ablyazovcrimesyndicate.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "searchsimple.info", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailpostsecure.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailserver399.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailpostsecureservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ultimateresponseservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shortnerserviceonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostbasicsg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "loginservicesmailsonlinesaccounts.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "sapserverhg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "demoprojectsuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "selectedservicesg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailsecureservers.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "javaservermy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "selectedmaxstores.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "browserdirectservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "trustedserviceonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "affliatedomainservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "registrationonlineeurope.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mylinbas.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "anitmationworldnews.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "backwaterreservoir.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverloadbalance.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hiretechservicehg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserveroutlook.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostfeasta.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "postserverem.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "selectiveservicemax.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasicsg1.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailcommute.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlineloginportalsg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basichostingrussia.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "optionalblogging.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserviceloginonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "internetmarketingservicehg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostbasicru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "bellsouthnetwork.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainhostworkeu.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlineloginportalhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "secureserverasia.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "fastserverusa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "usewithcareathome.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "buzzoffru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserver39490.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "buzzoffsg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shipnyatchholland.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "standardofficeholland.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainlocalhostinghk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "watchmanservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasicru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainsforsupport.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "offshoretoursntravels.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "chromeperfection.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostserverrus.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "loginservicebasic.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "frwrdrwr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostbasicholl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "planyourexoticvacation.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shrinkthisurl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basichostnetservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainlocalhostinguk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ruslinbas.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "updatenameserver45.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "buzzoffmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserveroginusa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "getreadytorunhalfmarathon.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainexpertswebuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "luxlinbas.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "auditionregistrationonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "strngbltru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hollandtourandtravel.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainhostnetworkusa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "homeforallorphans.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforhome.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "productdemoservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "exchangeserverformailing.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "dotnerserversg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostbasichk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "redirectserviceonline.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "standardofficeuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shoponlinefreeuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "tnyurlservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netsecurehostingmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "personaldoaminru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "loginservicehelp.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "youranotherserver.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shrinkandshareurl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainformailinguk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverfortechies.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "exchangeserver2345.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostusewithtech.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "optionalblogginguk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainsforfreehosting.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "transferdomainhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicservicemy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlineloginserviceeu.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "supportserviceeu.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "blogserverlx.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "browserredirect.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "localserversa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "tricktravelbooking.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "trackserviceonline.xyz", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "racksackserveruk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "websecurehostings.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlineloginserviceuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "strongwingtechnologies.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "transferdomainlu.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainhostnetworkuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "bitserverhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailauthorizationservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "tinyurlshortner.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicservicehk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "dotnetserverhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serviceasneed.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "economyfeeds.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "msgrdrg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "tineeurl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "buzzoffhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserverdomainusa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hongkongshippingcompany.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "localhostinguk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverasiasap.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shortenurlservices.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicservicelux.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserverdirect3994.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "fastservereurope.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforhelpru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "optionalblogginges.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "economyservicesil.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicservicerus.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "russialinuxbasic.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hardcoretechnologiesllp.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "homeremedytipntricks.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailserver39.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "trusteventservices.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailbaseserverhl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "servicegoingfar.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "selectedservicemy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netserviceru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "sglinbas.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "blogforpranks.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "standardofficeil.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webdomainexperts.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "selectyourgroom.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "srvrgruk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "getsetgoforhealth.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "emailserver4859.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "offshorecompanyllp.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "buzzoffbul.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "knowledgebaseonlineuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "promotespritialbelief.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-authmail.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linkfollowservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "maxlaboratories.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "xpertmaildomain.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicruoffshore.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserverdomainuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlineloginportalmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "logincontrolserver.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shoponlinefreesg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "strongbolthostinghk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "belowmargins.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverfornetworks.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailservereurope.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hklinbas.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostbasicmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainforhostuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "bitserverlux.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostingservicesukit.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "frwrdrurl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "rulinuxbasic.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webredirect.click", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxserverfast.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforhiretech.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverfortechhelp.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainserveractive.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostingservicesloyal.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "pageredirectservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "personaldoaminsg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserverdomainhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlineloginserviceusa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforzapper.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverformailings.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "cathostingservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostingserviceclean.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforhelphk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverdemoservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "hostingserviceforall.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "anothershortnr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "upgradetravelservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "portfoliofasinating.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlineloginportal.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasichk1.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "fastserveruk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serviceforneworder.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "capitalinvestmentsllp.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netsecuremailhosting.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "optionaldesigners.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "fastserverasia.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "optionalbloggingeu.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "netgeoserversg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "baseserveremailbg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicmyoffshore.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainsfortechhelp.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasicmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "readmytipsntricks.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasichk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "assuredreturnplan.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "sapserverhike.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "post-manager.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shortenup.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "dnsserverprv.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "secureservereurope.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "domainlocalhostingeu.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mailauthservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasicsg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linkforwrder.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "prwebsiteuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "optionsothego.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webserverdomaineu.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "selectedserviceru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shorturlservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforhelpsg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "transferdomainmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxhostingplatformuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasicru1.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicservicesg.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "basicsgoffshore.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "dsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ecoserveraus.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "minrsrvr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "cyberserverusa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "shortserver1.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "inrsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "snaphosterservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-us-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "msrdr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "sitebloginfo.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "transferserver33.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "affiliatedomainservice.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "nrgrsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "budgtoffmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "webmailmanageruk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-er-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "deferrer.website", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "siteadminhk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "zsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "nigeriaoilleaks.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-biz.website", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "look-com.org", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforhelpmy.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "websitemanagerusa.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ondemand.pushthisurl.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "ppleid.org", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mail-msrgr.info", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-mail-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-io-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mrgrhr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "forumtechtopic.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-oa-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mgrsr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-com-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "csrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mnrsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "serverforhelplux.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "imgsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-ar-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "saferedirect.pw", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "interserver439.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-hl-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "budgtoffru.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "chatserverrussia.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "nameserver3476.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "secureemailserver65.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "aplsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "intrsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-nh-en-us.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mvrsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "bsrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "msrwr.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "mail-com.org", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "xpertdomain.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-en-us.co.uk", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "esrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-mail.net", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "isrvrer.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "siteadmineurope.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "websiteadminuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "com-com.website", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "nameserverredirect.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "onlinemusicstoreuk.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "linuxbasicru3.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
+{"type": "domain", "ioc": "secureserver9898.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
