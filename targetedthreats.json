@@ -2434,3 +2434,6 @@
 {"type": "domain", "ioc": "linuxbasicru3.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
 {"type": "domain", "ioc": "secureserver9898.com", "family": "Dark Basin", "country": "", "reference": "https://citizenlab.ca/2020/06/dark-basin-uncovering-a-massive-hack-for-hire-operation/"}
 {"type": "domain", "ioc": "urlpush.net", "family": "NSO", "country": "Morocco", "reference": "https://www.amnesty.org/en/latest/research/2020/06/moroccan-journalist-targeted-with-network-injection-attacks-using-nso-groups-tools/"}
+{"type": "domain", "ioc": "researchplanet.zapto.org", "family": "NetWire", "country": "India", "reference": "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/"}
+{"type": "domain", "ioc": "socialstatistics.zapto.org", "family": "NetWire", "country": "India", "reference": "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/"}
+{"type": "domain", "ioc": "duniaenewsportal.ddns.net", "family": "NetWire", "country": "India", "reference": "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/"}
