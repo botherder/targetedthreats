@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2016-2018, Claudio "nex" Guarnieri
+# Copyright (c) 2020, Claudio "nex" Guarnieri
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification,
@@ -31,52 +31,47 @@ import os
 import csv
 import sys
 from argparse import ArgumentParser
+from phishdetect import PhishDetect
 
-def generate_rule(row, counter=1):
-    message_suffix = ""
-    if row["family"]:
-        message_suffix += " - related to {}".format(row["family"])
-    if row["country"]:
-        message_suffix += " (seen in {})".format(row["country"])
-
-    sid = 9100000 + counter
-
-    if row["type"] == "ip_address":
-        message = "Traffic to suspicious IP {}{}".format(row["ioc"], message_suffix)
-
-        alert = "alert ip any any -> {} any (msg:\"{}\"; reference:url,{}; classtype:trojan-activity; sid:{}; rev:0;)".format(
-            row["ioc"], message, row["reference"], sid)
+def clean_tag(tag):
+    tag = tag.lower().replace(" ", "_").strip()
+    if tag == "misc":
+        return ""
     else:
-        message = "Suspicious DNS request {}{}".format(row["ioc"], message_suffix)
+        return tag
 
-        domain_pattern = ""
-        for part in row["ioc"].split("."):
-            domain_pattern += "|{:02X}|{}".format(len(part), part)
-
-        alert = "alert udp any any -> any 53 (msg:\"{}\"; content:\"|01 00 00 01 00 00 00 00 00 00|\"; depth: 10; offset: 2; content:\"{}\"; nocase; distance: 0; fast_pattern; reference:url,{}; classtype:trojan-activity; sid:{}; rev:0;)".format(
-            message, domain_pattern, row["reference"], sid)
-
-    return alert
-
-def main(csv_path):
-    parser = ArgumentParser(description="Generate Snort rules from CSV indicators list")
-    parser.add_argument("csv_path", action="store")
+def main():
+    parser = ArgumentParser(description="Send domains to a PhishDetect Node")
+    parser.add_argument("--host", "-H", required=True, help="Address of your preferred PhishDetect Node")
+    parser.add_argument("--api-key", "-k", required=True, help="Your API key")
+    parser.add_argument("csv_path", help="The targetedthreats.csv file containing the list of indicators")
     args = parser.parse_args()
 
     if not os.path.exists(args.csv_path):
-        print("[!] ERROR: IOC file does not exist at path {}".format(args.csv_path))
-        return
+        print(f"ERROR: The file does not exist at path {args.csv_path}")
+        sys.exit(-1)
+
+    pd = PhishDetect(host=args.host, api_key=args.api_key)
 
     with open(args.csv_path, "r") as handle:
         reader = csv.DictReader(handle)
-        counter = 1
         for row in reader:
-            try:
-                print(generate_rule(row, counter))
-            except IndexError:
+            if not "type" in row or row["type"] != "domain":
                 continue
 
-            counter += 1
+            ioc = row["ioc"]
+            tags = ["targetedthreats",]
+            for tag in [row["family"], row["country"]]:
+                tag = clean_tag(tag)
+                if tag != "":
+                    tags.append(tag)
+
+            print(f"Submitting indicator {ioc} with tags {tags}")
+            result = pd.indicators.add(indicators=[ioc,], tags=tags)
+            if "error" in result:
+                print(f"ERROR: Submitting of indicators failed: {result['error']}")
+            else:
+                print(result["msg"])
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main()

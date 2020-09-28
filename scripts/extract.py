@@ -34,10 +34,10 @@ from argparse import ArgumentParser
 
 def main():
     parser = ArgumentParser(description="Targeted Threats IOC Extractor")
-    parser.add_argument('--all', '-a', action='store_true', help="Get all indicators")
-    parser.add_argument('--ip', '-i', action='store_true', help="Get only IP addresses")
-    parser.add_argument('--domains', '-d', action='store_true', help="Get only domains")
-    parser.add_argument('csv_path', action="store")
+    parser.add_argument("--all", "-a", action="store_true", help="Get all indicators")
+    parser.add_argument("--ip", "-i", action="store_true", help="Get only IP addresses")
+    parser.add_argument("--domains", "-d", action="store_true", help="Get only domains")
+    parser.add_argument("csv_path", action="store")
 
     args, unknown = parser.parse_known_args()
 
@@ -49,13 +49,13 @@ def main():
         print("[!] ERROR: IOC file does not exist at path {}".format(args.csv_path))
         return
 
-    with open(args.csv_path, 'r') as handle:
+    with open(args.csv_path, "r") as handle:
         reader = csv.DictReader(handle)
         for row in reader:
-            if (args.all or args.ip) and row['type'] == 'ip_address':
-                print(row['ioc'])
-            elif (args.all or args.domains) and row['type'] == 'domain':
-                print(row['ioc'])
+            if (args.all or args.ip) and row["type"] == "ip_address":
+                print(row["ioc"])
+            elif (args.all or args.domains) and row["type"] == "domain":
+                print(row["ioc"])
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

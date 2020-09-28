@@ -43,10 +43,10 @@ def is_ip(ioc):
 
 def get_iocs(csv_path):
     iocs = []
-    with open(csv_path, 'r') as handle:
+    with open(csv_path, "r") as handle:
         reader = csv.DictReader(handle)
         for row in reader:
-            iocs.append(row['ioc'])
+            iocs.append(row["ioc"])
 
     return iocs
 
@@ -67,14 +67,14 @@ def is_good(ioc):
 def clean_indicator(ioc):
     ioc = ioc.lower()
     ioc = ioc.strip()
-    ioc = ioc.replace('[.]', '.')
+    ioc = ioc.replace("[.]", ".")
     return ioc
 
 def main():
     parser = ArgumentParser(description="Add new indicators to the CSV list")
-    parser.add_argument('ioc_path', action="store")
-    parser.add_argument('csv_path', action="store")
-    args, unknown = parser.parse_known_args()
+    parser.add_argument("ioc_path", action="store")
+    parser.add_argument("csv_path", action="store")
+    args = parser.parse_args()
 
     if not os.path.exists(args.ioc_path) or not os.path.exists(args.csv_path):
         parser.print_usage()
@@ -87,13 +87,13 @@ def main():
     country = input(">>> Provide the country: ")
     reference = input(">>> Provide URL to report: ")
 
-    collection = open(args.csv_path, 'a')
+    collection = open(args.csv_path, "a")
     writer = csv.writer(collection, quoting=csv.QUOTE_ALL)
 
-    with open(args.ioc_path, 'r') as handle:
+    with open(args.ioc_path, "r") as handle:
         for line in handle:
             ioc = clean_indicator(line)
-            if ioc == '':
+            if ioc == "":
                 continue
 
             if not is_good(ioc):
@@ -102,9 +102,9 @@ def main():
 
             if ioc not in iocs:
                 print("[+] Adding new row to collection for IOC: " + ioc)
-                ioc_type = 'domain'
+                ioc_type = "domain"
                 if is_ip(ioc):
-                    ioc_type = 'ip_address'
+                    ioc_type = "ip_address"
                 new_row = [ioc_type, ioc, family, country, reference]
                 writer.writerow(new_row)
             else:
@@ -112,5 +112,5 @@ def main():
 
     collection.close()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

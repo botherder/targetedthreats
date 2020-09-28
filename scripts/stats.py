@@ -32,11 +32,10 @@ from argparse import ArgumentParser
 
 def main():
     parser = ArgumentParser(description="Extract statistics from reports")
-    parser.add_argument('input', action="store")
+    parser.add_argument("input", action="store")
+    args = parser.parse_args()
 
-    args, unknown = parser.parse_known_args()
-
-    reader = csv.DictReader(open(args.input, 'r'))
+    reader = csv.DictReader(open(args.input, "r"))
 
     country_count = {}
     year_count = {}
@@ -67,5 +66,5 @@ def main():
     for year in year_sorted:
         print(year[1], year[0])
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

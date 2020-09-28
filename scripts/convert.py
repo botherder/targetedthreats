@@ -33,22 +33,21 @@ import json
 from argparse import ArgumentParser
 
 def convert_to_json(input_path, output_path):
-    csvfile = open(input_path, 'r')
-    jsonfile = open(output_path, 'w')
+    csvfile = open(input_path, "r")
+    jsonfile = open(output_path, "w")
 
     reader = csv.DictReader(csvfile)
     for row in reader:
         print(row)
         json.dump(row, jsonfile)
-        jsonfile.write('\n')
+        jsonfile.write("\n")
 
 def main():
     parser = ArgumentParser(description="Convert CSV list to other formats")
-    parser.add_argument('--json', '-j', action='store_true', help="Convert to JSON")
-    parser.add_argument('input', action="store")
-    parser.add_argument('output', action="store")
-
-    args, unknown = parser.parse_known_args()
+    parser.add_argument("--json", "-j", action="store_true", help="Convert to JSON")
+    parser.add_argument("input", action="store")
+    parser.add_argument("output", action="store")
+    args = parser.parse_args()
 
     if not args.json:
         parser.print_usage()
@@ -58,5 +57,5 @@ def main():
     if args.json:
         convert_to_json(args.input, args.output)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
